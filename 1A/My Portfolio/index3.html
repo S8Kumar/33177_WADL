@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> My Portfolio 3 </title>
+        <link rel = "icon" href = "data:image/jpeg;base64,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" type = "image/x-icon">
+        
+        <link rel="stylesheet" type="text/css" href="style3.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body>
+        <div id="meta-container">
+<!-- BANNER -->
+            <div id="banner">
+                <div class="hero-img"> </div>
+                <div class="h-middle">
+                    <div class="hero-text">
+                        <span class="ptitle">Stuti's Portfolio</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="super-container">
+                <div id="sub-container">
+<!-- NAVBAR -->
+                    <div id="navigation" class="row"> 
+                        <div class="col-md-12">
+                            <ul class="nav justify-content-center">
+                                <li class="nav-item">
+                                    <a id="n-link" class="nav-link" href="#header">Home</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a id="n-link" class="nav-link" href="#multipanel">About</a>
+                                </li>
+
+                                <li class="nav-item">
+                                   <a id="n-link" class="nav-link" href="#pre-footer">Info</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a id="n-link" class="nav-link" href="#photo-grid">Gallery</a>
+                                </li>
+                              </ul>  
+                        </div>
+                    </div>
+ <!-- HEADER -->                   
+                    <header>
+                        <div id="header" class="row">
+                            <div id="logo" class="col-md-2">
+                                <img class="circle" src="https://www.galleryzooart.com/wp-content/uploads/sites/1382/2018/11/34565-768x762.jpg">
+                            </div>
+                            <div id="name" class="col-md-10">
+                                <h1> Stuti Kumar </h1>
+                                <p class="subtitle"> <em> 3rd Year I.T. Engineering student at PICT, Pune.</em> </p>
+                            </div>
+                        </div>
+                    </header>
+<!-- PANELS -->        
+                    <div id="multipanel" class="row"> 
+        <!--INTERESTS-->
+                        <button class="accordion">Interests</button>
+                        <div id="interests" class="panel">
+                            <br>
+                            <div id="photo-grid">
+                                <div class="p-row">
+                                    <div class="p-column">
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://cdn.wuxiaworld.com/images/covers/og.jpg?ver=5224bb795f9ca73f40e8789f98bd4390993ee996" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text"> Overgeared </div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="E:\INSTALLS\VSCodeProjects\My Portfolio\img\rdch3.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text"> Return of the Disaster Class Hero</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://au.rollingstone.com/wp-content/uploads/2021/10/stray-kids.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text"> Stray Kids</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://wallpapercave.com/wp/wp2352143.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text"> BTS</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-column">
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://static.wikia.nocookie.net/mudae/images/c/c6/Katsuki_Bakugou_19.png/revision/latest?cb=20200424174528" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text"> My Hero Academia</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://images.genius.com/22a08dcc5720c069dd214669fd95675d.1000x1000x1.png" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text"> Panic!at The Disco</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://oalb.mangapicgallery.com/r/album/0d/md_/266790_10396678.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text"> The S-Class That I Raised</div>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                    <div class="p-column">
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://images-na.ssl-images-amazon.com/images/I/71goH8p2ENL.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">Solo Leveling</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781974714803/jujutsu-kaisen-vol-4-9781974714803_xlg.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">Jujutsu Kaisen</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://inkistyle.com/wp-content/uploads/2020/11/TREASURE-MMM-MV-Fashion.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">TREASURE</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://www.pinkvilla.com/imageresize/pinkvilla-picks-missing-zayn-malik-with-1d-one-direction-this-is-us-is-the-remedy-you-need-amid-quarantine.jpg?width=752&format=webp&t=pvorg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">One Direction</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-column">
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://m.media-amazon.com/images/I/51zDpFkrRuL.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">Supernatural</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://i0.wp.com/bunkashock.com/wp-content/uploads/2021/03/second-life-ranker.jpg?fit=1280%2C460&ssl=1" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">Second Life Ranker</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://upload.wikimedia.org/wikipedia/en/a/a2/Fall_Out_Boy_-_Mania.png" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">Fall Out Boy</div>
+                                            </div>
+                                        </div>
+                                        <div class="p-container">
+                                            <img class="p-img" src="https://images-na.ssl-images-amazon.com/images/I/81s8xJUzWGL.jpg" style="width:100%">
+                                            <div class="p-middle">
+                                                <div class="p-text">Chainsaw Man</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+        <!--HOBBIES-->
+                        <button class="accordion">Hobbies</button>
+                        <div id="hobbies" class="panel">
+                            <br>
+                            <div class="row">
+                                <div class="col-md-7 d-flex justify-content-center">
+                                    <div id="pie"> </div>
+                                </div>
+                                <div class="col-md-5 d-flex justify-content-center vcenter">
+                                    <div id="key-val" class="vcenter">
+                                        <table class="hbb-t">
+                                            <tr class="hbb t-heading">
+                                                <th class="key"> Key </th>
+                                                <th> Value </th>
+                                                <th class="cent"> Percentage % </th>
+                                            </tr>
+                                            <tr class="hbb" id=" photographyy">
+                                                <td class="key"> <div class="c1 swatch"> </div></td>
+                                                <td> Photography </td>
+                                                <td class="cent"> 0.3 </td>
+                                            </tr>
+                                            <tr class="hbb" id="cooking">
+                                                <td class="key"> <div class="c1 swatch"> </td>
+                                                <td> Cooking </td>
+                                                <td class="cent"> 0.7 </td>
+                                            </tr>
+                                            <tr class="hbb" id="videogames">
+                                                <td class="key"> <div class="c2 swatch"> </td>
+                                                <td> Video Games </td>
+                                                <td class="cent"> 2 </td>
+                                            </tr>
+                                            <tr class="hbb" id="drawing">
+                                                <td class="key"> <div class="c3 swatch"> </td>
+                                                <td> Drawing </td>
+                                                <td class="cent"> 3 </td>
+                                            </tr>
+                                            <tr class="hbb" id="h-music">
+                                                <td class="key"> <div class="c4 swatch"> </td>
+                                                <td> Music </td>
+                                                <td class="cent"> 13 </td>
+                                            </tr>
+                                            <tr class="hbb" id="anime">
+                                                <td class="key"> <div class="c5 swatch"> </td>
+                                                <td> Anime </td>
+                                                <td class="cent"> 15 </td>
+                                            </tr>
+                                            <tr class="hbb" id="reading">
+                                                <td class="key"> <div class="c6 swatch"> </td>
+                                                <td> Reading </td>
+                                                <td class="cent"> 66 </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+        <!--MUSIC-->
+                        <button class="accordion">Music</button>
+                        <div id="music" class="panel">
+                            <div id="music-container">
+                                <br>
+                                <h2>Current Favourite Song</h2>
+                                <div id="ytvid" class="row">
+                                    <div class="col-md-7 d-flex justify-content-center card-container"> 
+                                        <div class="flex-container">
+                                            <div>
+                                                <h5 class="mv-title"> <strong> <u> RISE </u> </strong></h5>
+                                                <span class="mv-subtitle"> League of Legends</span> <hr>
+                                            </div>
+                                            <div class="vid-container">
+                                                <iframe class="vid" src="https://www.youtube.com/embed/fB8TyLTD7EE?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 d-flex justify-content-center card-container"> 
+                                        <div class="lyrics border-0 rounded-0" id="data"> 
+                                            <em>
+                                            Welcome to the wild, no heroes and villains <br>
+                                            Welcome to the war, we've only begun, so <br>
+                                            Pick up your weapon and face it <br>
+                                            There's blood on the crown, go and take it<br>
+                                            You get one shot to make it out alive, so <br> <br>
+                                            Higher and higher you chase it <br>
+                                            It's deep in your bones, go and take it <br>
+                                            This is your moment, now is your time, so <br> <br>
+                                            Prove yourself and <br>
+                                            RISE, RISE <br>
+                                            Make 'em remember you <br>
+                                            RISE <br>
+                                            Push through hell and <br>
+                                            RISE, RISE <br>
+                                            They will remember you <br>
+                                            RISE <br><br>
+                                            Welcome to the climb up, reach for the summit <br>
+                                            Visions pray that one false step lead the end, so <br> <br>
+                                            Higher and higher you chase it <br>
+                                            It's deep in your blood, go and take it <br>
+                                            This is your moment, take to the skies, go <br> <br>
+                                            Prove yourself and <br>
+                                            RISE, RISE <br>
+                                            Make 'em remember you <br>
+                                            RISE <br>
+                                            Push through hell and <br>
+                                            RISE, RISE <br>
+                                            They will remember you <br>
+                                            RISE <br> <br>
+                                            So get along, so get along, go <br>
+                                            Get along 'long go a lil' harder <br>
+                                            So get along, so get along, go <br>
+                                            Get along 'long go a lil' harder <br> <br>
+                                            And as you fight among the death beneath the dirt <br>
+                                            Do you know yet? <br>
+                                            Do you want it? <br>
+                                            And when the giants call to ask you what you're worth <br>
+                                            Do you know if <br>
+                                            Win or die, you'll <br> <br>
+                                            Prove yourself and <br>
+                                            RISE, RISE <br>
+                                            Make 'em remember you<br>
+                                            RISE <br>
+                                            Push through hell and <br>
+                                            RISE, RISE <br>
+                                            They will remember you <br>
+                                            RISE <br>
+                                            Prove yourself and <br> <br>
+                                            RISE, RISE <br>
+                                            (Pick up your weapon and face it) <br>
+                                            RISE <br>
+                                            (It's deep in your blood, go and take it) <br>
+                                            RISE, RISE <br>
+                                            (Higher and higher you chase it) <br>
+                                            RISE <br>
+                                            RISE, RISE <br>
+                                            </em>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div id="stats"> 
+                                    <h3>My Music Taste</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <table class="super-m-table">
+                                                <table class="m-t">
+                                                    <tr>
+                                                        <td class="pb1" width="80%"></td>
+                                                        <td class="genre">Alternative/ Punk/ Pop-Rock</td>
+                                                    </tr>
+                                                </table> <br>
+                                                <table class="m-t">
+                                                    <tr>
+                                                        <td class="pb2" width="45%"></td>
+                                                        <td class="genre">Kpop</td>
+                                                    </tr>
+                                                </table> <br>
+                                                <table class="m-t">
+                                                    <tr>
+                                                        <td class="pb3" width="23%"></td>
+                                                        <td class="genre">J-Rock/ J-Pop</td>
+                                                    </tr>
+                                                </table> <br>
+                                                <table class="m-t">
+                                                    <tr>
+                                                        <td class="pb4" width="10%"></td>
+                                                        <td class="genre">Latin Pop</td>
+                                                    </tr>
+                                                </table> <br>
+                                                <table class="m-t">
+                                                    <tr>
+                                                        <td class="pb5" width="25%"></td>
+                                                        <td class="genre">Others</td>
+                                                    </tr>
+                                                </table> <br>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+        <!--TRAVEL-->
+                        <button class="accordion">Travel</button>
+                        <div id="travel" class="panel">
+                            <br>
+                            <br>
+                            <div id="map-container">
+                                <div id="UK" class="row">
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.708846303496!2d-0.6523824343658992!3d51.46350187962792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767b9ee7e8d33f%3A0x821725df6cb417bf!2sLEGOLAND%C2%AE%20Windsor%20Resort!5e0!3m2!1sen!2sin!4v1643875934914!5m2!1sen!2sin" allowfullscreen="" loading="eager"></iframe>
+                                            <div class="card-body align-self-stretch">
+                                                <h5 class="card-title">LEGOLAND, Windsor, UK</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.6732280123497!2d-0.124153184364433!3d51.500863779634045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c693fca1a1%3A0xd697942be6dd609e!2sWestminster%20Bridge!5e0!3m2!1sen!2sin!4v1643876597472!5m2!1sen!2sin" allowfullscreen="" loading="eager"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Westminister Bridge, London, UK</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2521.9208625800757!2d-1.1107057843923158!3d50.79557517952447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48745d81407073e3%3A0x58939dec9d61be4d!2sSpinnaker%20Tower!5e0!3m2!1sen!2sin!4v1643877154632!5m2!1sen!2sin" allowfullscreen="" loading="eager"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Spinnaker Tower, Portsmouth, UK</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div id="EU" class="row">
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d276096.0326170861!2d-4.78186055392718!3d57.27372389246102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488f16c34da23729%3A0xd4d749cbf4fe912f!2sLoch%20Ness!5e0!3m2!1sen!2sin!4v1643877505342!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Loch Ness, UK</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10500.90203941117!2d2.2913514892102236!3d48.853910018591066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701f7e8337b5%3A0xa2cb58dd28914524!2sEiffel%20Tower%2C%20Paris%2C%20France!5e0!3m2!1sen!2sin!4v1643877582069!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Eiffel Tower, Paris, France</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2686.344347625247!2d8.61328601548789!3d47.67773217918948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47907f4c7ac3c9d5%3A0x7a5d38fc70918927!2sRhine%20Falls!5e0!3m2!1sen!2sin!4v1643877799545!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Rhine Falls, Switzerland</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                                <div id="UAE" class="row">
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7262.11046347519!2d54.602902424308574!3d24.483543086932094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e457e2d394a05%3A0x6076df4876c470a9!2sFerrari%20World%20Abu%20Dhabi!5e0!3m2!1sen!2sin!4v1643875058309!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ferrari World, Yas Island, Abu Dhabi, UAE</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.178653926923!2d55.2721877148145!3d25.19719698389618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1643876780172!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Burj Khalifa, Dubai, UAE</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 d-flex justify-content-center card-container"> 
+                                        <div class="card border border-info rounded-0" style="width: 18rem;">
+                                            <iframe class="card-img-top" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14038.039139842578!2d55.11759742142834!3d25.123984853990095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f1529c2653b15%3A0x3dcabcae764a3e16!2sPalm%20Jumeirah!5e0!3m2!1sen!2sin!4v1643877043165!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+                                            <div class="card-body">
+                                                <h5 class="card-title">Palm Jumeirah, Duabi, UAE</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <hr class="travel">
+                        </div>          
+                    </div>
+ <!-- PREFOOTER -->       
+                    <div id="pre-footer" class="row"> 
+                        <p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                    </div>
+<!-- CONTACT FORM -->
+                    <div id="contact">
+                        
+                    </div>
+ <!-- FOOTER -->    
+                    <footer class="page-footer"></footer>  
+                        <div id="footer" class="row"> 
+                            <div class="f-container">
+                                <div id="social" class="row">
+                                    <div class="f-col col-md-12">
+                                        <a id="s-icon" href="#footer" class="fa fas fa-facebook fa-2x"></a> &nbsp;
+                                        <a id="s-icon" href="#footer" class="fa fas fa-twitter fa-2x"></a> &nbsp;
+                                        <a id="s-icon" href="#footer" class="fa fas fa-youtube fa-2x"></a> &nbsp;
+                                        <a id="s-icon" href="#footer" class="fa fas fa-instagram fa-2x"></a> &nbsp;
+                                        <a id="s-icon" href="#footer" class="fa fas fa-pinterest fa-2x"></a>
+                                    </div>
+                                </div>
+
+                                <div id="f-text" class="row">
+                                    <div class="col-md-4 d-flex justify-content-start">
+                                        <div class="flex-container">
+                                            <div class="">
+                                                <h2> Search... </h2>
+                                            </div>
+                                            <div class="fnav">
+                                                <div class="search-container align-items-stretch">
+                                                    <form action="">
+                                                        <input type="text" placeholder="Search.." name="search">
+                                                        <button class="align-self-stretch" type="submit"><i class="fa fa-search"></i></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8 d-flex justify-content-start"> 
+                                        <div class="flex-container">
+                                            <div class="row">
+                                                <h2> Text... </h2>
+                                            </div>
+                                            <div class="row d-flex justify-content-between">
+                                                <div class="col-md-6"> 
+                                                    <p class="f-text light-grey">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+                                                </div>
+                                                <div class="col-md-6"> 
+                                                    <p class="f-text light-grey">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="copyright" class="row vcenter">
+                            <h5> &copy; 2021 Copyright: <strong> STUTI KUMAR </strong></h5>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            
+        </div>
+        
+        <script src="script.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
+</html>
