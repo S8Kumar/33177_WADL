@@ -8,4 +8,5 @@ B. Contact form (AJAX, jQuery)
 **Assignment 2**    
 A. GitHub account  
 B. Docker Container  
-C. Angular application  
+
+
