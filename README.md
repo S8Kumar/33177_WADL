@@ -9,4 +9,6 @@ B. Contact form (AJAX, jQuery)
 A. GitHub account  
 B. Docker Container  
 
+**Assignment 3**
+A. Static website using node.js  
 
